@@ -4,29 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript</title>
+    <title>Document</title>
     <style>
-        textarea{
-            width: 80%;
-            margin: 1rem;
-            height: 10vh;
-        }
-        div{
-            border: 1px solid black;
-            width: 80%;
-            height: 10vh;
-            margin-left: 70px;
-        }
+        .c1 {
+    height: 20vh;
+    margin-top: 0px;
+    background-color: red;
+    font-size: 60px;
+    text-align: center;
+}
+#i1{
+    display: block;
+    width: 100%;
+    height: 10vh;
+}
+#i2{
+    display: block;
+}
+#i3{
+    width: 100%;
+    height: 10vh;
+    border: 1px solid black;
+}
+.c2{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: auto;
+    height: 20vh;
+    background-color: red;   
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
     </style>
 </head>
 <body>
-    <h1>Talk banana </h1>
-    <button id="btn-translate">Button</button>
-    <textarea 
-     id="txt-input"
-    placeholder="write here"></textarea>
-    <h3>Output will come here</h3>
-    <div id="output">This is Arpit</div>
+    <nav class="c1">
+            <h1>Apple Talk</h1>
+    </nav>
+    <br><br><br>
+    <textarea id="i1" placeholder="Enter text"></textarea>
+    <br>
+    <button id="i2">Translate</button>
+    <br>
+    <div id="i3">Output should be here</div>
+    <br><br><br>
+    <footer class="c2">
+        <div>
+            <h2>About minions</h2>
+            <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.</p>
+        </div>
+    </footer>
     <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
