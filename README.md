@@ -1,7 +1,5 @@
 # Minions speak
 
-# Minion Speak Transaltor
-
 ## List of Contents
 - Descritpion
 - Input
