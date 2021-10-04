@@ -7,7 +7,7 @@
 - Output
 - Link
 
-> **Description:** This app will help you to write your words in minion languaa=ge, enter text you want on input box and click on translate button and then see the magic in front of your eyes. For this app we have used `funtransalations.com API` to translate user input.
+> **Description:** This app will help you to write your words in minion language, enter text you want on input box and click on translate button and then see the magic in front of your eyes. For this app we have used `funtransalations.com API` to translate user input.
 
 <br>
 
@@ -26,5 +26,5 @@
 
 <br>
 
-> **Link:** [Minions Speak](https://arpit-apple-talk.netlify.app/)
+> **Link:** [Minions Speak](https://arpit-minions-speak.netlify.app/)
  
